@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=480" />
+    <meta
+      name="description"
+      content="Інтернет-магазин Здорове тіло - товари для здоров'я, швидка доставка, оплата при отриманні."
+    />
+    <meta
+      name="keywords"
+      content="інтернет-магазин, здорове тіло, товари для здоров'я, швидка доставка, оплата при отриманні"
+    />
+    <meta name="robots" content="index, follow" />
+    <title>Інтернет-магазин Здорове тіло</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+  </head>
+  <body style="overflow: auto">
+    <div id="wrapper">
+      <button
+        class="btn-menu"
+        id="btn-menu"
+        type="button"
+        aria-label="Button mobile menu"
+      >
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+      <aside id="sidebar" class="sidebar">
+        <ul class="nav sidebar-nav">
+          <div class="sidebar-header">
+            <div class="sidebar-brand">
+              <a href="#">Brand</a>
+            </div>
+          </div>
+          <li><a href="/">Головна</a></li>
+          <li class="dropdown">
+            <a>Категорії</a>
+            <div class="dropdown-content">
+              <a href="/category/category-1">Категорія 1</a>
+              <a href="/category/category-2">Категорія 2</a>
+              <a href="/category/category-3">Категорія 3</a>
+              <a href="/category/category-4">Категорія 4</a>
+            </div>
+          </li>
+          <li class="cart-icon open-modal open-cart" data-modal="#cart">
+            <a>Кошик <span id="cart-count">0</span></a>
+          </li>
+        </ul>
+      </aside>
+      <div class="container">
+        <header class="fixed-header">
+          <div class="logo_block">
+            <img src="images/logo.svg" alt="" />
+          </div>
+          <nav>
+            <ul>
+              <li><a href="/">Головна</a></li>
+              <li class="dropdown">
+                <a>Категорії</a>
+                <div class="dropdown-content">
+                  <a href="/category/category-1">Категорія 1</a>
+                  <a href="/category/category-2">Категорія 2</a>
+                  <a href="/category/category-3">Категорія 3</a>
+                  <a href="/category/category-4">Категорія 4</a>
+                </div>
+              </li>
+              <li class="cart-icon open-modal open-cart" data-modal="#cart">
+                <a>Кошик <span id="cart-count">0</span></a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <main>
+          <!-- header 3 -->
+          <header class="offer_section offer3 scroll-reval-block">
+            <div class="title_block">
+              <h1 class="main_title">Інтернет-магазин<br />ЗДОРОВЕ ТІЛО</h1>
+              <p class="subtitle">
+                Ми відібрали лише найкращі засоби для здоров'я та зібрали їх в
+                одному місці спеціально для вас
+              </p>
+              <a class="button" href="#catalog"> До покупок</a>
+              <img class="offer_image" src="images/girl.png" alt="" />
+            </div>
+            <div class="benefits_list clearfix">
+              <div class="benefit_item">Зручність та якість</div>
+              <div class="benefit_item">Швидка доставка</div>
+              <div class="benefit_item">Оплата при отриманні</div>
+            </div>
+          </header>
+
+          <section class="benefits_section scroll-reval-block">
+            <h2 class="title">Про нас</h2>
+            <div class="benefits_list2">
+              <div class="benefit_item">
+                <div class="text_block">
+                  <p>
+                    Наша компанія спеціалізується на продажу товарів для
+                    здоров'я, які допомагають людям зберігати активний спосіб
+                    життя та уникнути болючих відчуттів. Ми пропонуємо широкий
+                    асортимент товарів за доступною ціною
+                  </p>
+                  <p>
+                    Ми розуміємо, що здоров'я – це найцінніше, тому ми
+                    намагаємось надавати нашим клієнтам лише найкращі товари.
+                    Всі наші продукти проходять контроль якості, щоб гарантувати
+                    їх ефективність та безпеку.
+                  </p>
+                  <p>
+                    Якщо ви хочете зберегти своє здоров'я та покращити
+                    самопочуття, то зверніться до нас. Ми допоможемо вам вибрати
+                    необхідний Вам товар та доставимо його до Вас у найкоротші
+                    терміни. Наша компанія готова запропонувати вам лише
+                    найкращі товари для здоров'я!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="top-products scroll-reval-block">
+            <h2 id="catalog">Топ найпопулярніших</h2>
+            <!-- product_template.php -->
+            <div class="offer_section char">
+              <h2 class="title">Товар 1</h2>
+              <div class="gallery owl-carousel">
+                <div><img src="images/a1.jpg" alt="Товар 1" /></div>
+                <div><img src="images/a2.jpg" alt="Товар 1" /></div>
+                <div><img src="images/a3.jpg" alt="Товар 1" /></div>
+              </div>
+              <ul class="accordion-menu">
+                <li class="">
+                  <div class="dropdownlink">Опис</div>
+                  <p class="submenuItems" style="display: none">
+                    Опис товару 1
+                  </p>
+                </li>
+              </ul>
+              <ul class="char-list">
+                <li>Характеристика 1</li>
+                <li>Характеристика 2</li>
+              </ul>
+              <div class="price_block clearfix">
+                <div class="price_wrapper">
+                  <div class="price_item old">
+                    <div class="text">Звичайна ціна:</div>
+                    <div class="value">100 грн</div>
+                  </div>
+                  <div class="price_item new">
+                    <div class="text">Ціна зі знижкою:</div>
+                    <div class="value"><span>90</span>грн</div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="button add-to-cart"
+                data-product-price="90.00"
+                data-product-id="1"
+              >
+                Купити
+              </button>
+              <a class="button" href="/product/1">Детальніше</a>
+            </div>
+            <!-- product_template.php -->
+            <div class="offer_section char">
+              <h2 class="title">Товар 3</h2>
+              <div class="gallery owl-carousel">
+                <div><img src="images/a1.jpg" alt="Товар 3" /></div>
+                <div><img src="images/a2.jpg" alt="Товар 3" /></div>
+                <div><img src="images/a3.jpg" alt="Товар 3" /></div>
+              </div>
+              <ul class="accordion-menu">
+                <li class="">
+                  <div class="dropdownlink">Опис</div>
+                  <p class="submenuItems" style="display: none">
+                    Опис товару 3
+                  </p>
+                </li>
+              </ul>
+              <ul class="char-list">
+                <li>Характеристика 5</li>
+                <li>Характеристика 6</li>
+              </ul>
+              <div class="price_block clearfix">
+                <div class="price_wrapper">
+                  <div class="price_item old">
+                    <div class="text">Звичайна ціна:</div>
+                    <div class="value">300 грн</div>
+                  </div>
+                  <div class="price_item new">
+                    <div class="text">Ціна зі знижкою:</div>
+                    <div class="value"><span>290</span>грн</div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="button add-to-cart"
+                data-product-price="290.00"
+                data-product-id="3"
+              >
+                Купити
+              </button>
+              <a class="button" href="/product/3">Детальніше</a>
+            </div>
+            <!-- product_template.php -->
+            <div class="offer_section char">
+              <h2 class="title">Товар 4</h2>
+              <div class="gallery owl-carousel">
+                <div><img src="images/a1.jpg" alt="Товар 4" /></div>
+                <div><img src="images/a2.jpg" alt="Товар 4" /></div>
+                <div><img src="images/a3.jpg" alt="Товар 4" /></div>
+              </div>
+              <ul class="accordion-menu">
+                <li class="">
+                  <div class="dropdownlink">Опис</div>
+                  <p class="submenuItems" style="display: none">
+                    Опис товару 4
+                  </p>
+                </li>
+              </ul>
+              <ul class="char-list">
+                <li>Характеристика 7</li>
+                <li>Характеристика 8</li>
+              </ul>
+              <div class="price_block clearfix">
+                <div class="price_wrapper">
+                  <div class="price_item old">
+                    <div class="text">Звичайна ціна:</div>
+                    <div class="value">400 грн</div>
+                  </div>
+                  <div class="price_item new">
+                    <div class="text">Ціна зі знижкою:</div>
+                    <div class="value"><span>390</span>грн</div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="button add-to-cart"
+                data-product-price="390.00"
+                data-product-id="4"
+              >
+                Купити
+              </button>
+              <a class="button" href="/product/4">Детальніше</a>
+            </div>
+          </section>
+
+          <div class="title_block help scroll-reval-block">
+            <h2 class="main_title">Допоможемо з вибором</h2>
+            <p class="subtitle">
+              Залишайте заявку на консультацію і наш досвідчений менеджер
+              допоможе з вибором
+            </p>
+            <a class="button" href="#order_form">Залишити заявку</a>
+            <img class="offer_image" src="images/help.png" alt="" />
+          </div>
+          <!-- <section class="video_section scroll-reval-block">
+    <h2 class="title">Відео-огляд у</h2>
+    <div class="video_block">
+        <div class="youtube" id="fZFGvA0W-gA"></div>
+    </div>
+</section> -->
+
+          <section class="reviews4_section scroll-reval-block">
+            <h2 class="title">Відгуки покупців</h2>
+            <div class="reviews_stats_block">
+              <p>
+                <b style="font-family: 'Open Sans', sans-serif">98%</b> покупців
+                рекомендують цей товар
+              </p>
+              <div class="line"></div>
+            </div>
+            <div class="reviews_list4 owl-carousel">
+              <div class="review_item">
+                <div class="text_block">
+                  <div class="author_info">Мирослава</div>
+                  <p>
+                    За місяць дієти скинула лише 5 кг, ранкові пробіжки не
+                    допомагали. Почала щоденно користуватись детокс-пластирем.
+                    Вже на третій день відчула полегшення, а через 3 тижні
+                    позбулася усієї зайвої ваги! Зараз у мене талія настільки
+                    струнка, що навіть в юності такої не було))
+                  </p>
+                </div>
+              </div>
+              <div class="review_item">
+                <div class="text_block">
+                  <div class="author_info">Юлія</div>
+                  <p>
+                    Пластирі на коліно ну це просто ВАУ. Спробувала вперше, але
+                    результат неперевершений. Вона навіть зігрівають, тепленько
+                    так коли клеїшь. Зараз в осінню погоду дуже часто застуджую
+                    коліна, це просто мій порятунок.
+                  </p>
+                </div>
+              </div>
+              <div class="review_item">
+                <div class="text_block">
+                  <div class="author_info">Олег</div>
+                  <p>
+                    Наколінник-ортез просто супер, якість сподобалося. Дуже
+                    зручно носити, завдяки хорошим липучкам. Дійсно перестало
+                    боліти коліно вночі. Дякую інтернет-магазину Здорове тіло!
+                  </p>
+                </div>
+              </div>
+              <div class="review_item">
+                <div class="text_block">
+                  <div class="author_info">Юрій</div>
+                  <p>
+                    Сервіс найвищого рівня. Дівчина-оператор проконсультувала
+                    мене по телефону. Товар відповідає опису. Відправили та
+                    доставили швидко. Рекомендую!
+                  </p>
+                </div>
+              </div>
+              <div class="review_item">
+                <div class="text_block">
+                  <div class="author_info">Олена</div>
+                  <p>
+                    Я дуже задоволений замовленням, набір крутий. Я рекомендую
+                    продавця. Дякую за велике товар.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="order_steps_section scroll-reval-block">
+            <h2 class="title">Як замовити?</h2>
+            <div class="order_steps_list3">
+              <div class="step_item">
+                <h3>Заявка</h3>
+                <p>Залишаєте заявку на нашому сайті</p>
+              </div>
+              <div class="step_item">
+                <h3>Дзвінок</h3>
+                <p>Менеджер уточнює деталі замовлення</p>
+              </div>
+              <div class="step_item">
+                <h3>Відправка</h3>
+                <p>Новою Поштою протягом 1-3 днів</p>
+              </div>
+              <div class="step_item">
+                <h3>Отримання</h3>
+                <p>Оплачуєте при отриманні поштою</p>
+              </div>
+            </div>
+          </section>
+          <section class="offer_section offer3 bottom scroll-reval-block">
+            <div class="title_block">
+              <h2 class="main_title">Інтернет-магазин<br />ЗДОРОВЕ ТІЛО</h2>
+              <p class="subtitle">
+                Ми відібрали лише найкращі засоби для здоров'я та зібрали їх в
+                одному місці спеціально для вас
+              </p>
+              <div class="discount_block">
+                <div class="text">знижки</div>
+                <div class="value">до <span>-35%</span></div>
+              </div>
+              <img class="offer_image" src="images/girl.png" alt="" />
+            </div>
+            <div class="benefits_list clearfix">
+              <div class="benefit_item">Зручність та якість</div>
+              <div class="benefit_item">Швидка доставка</div>
+              <div class="benefit_item">Оплата при отриманні</div>
+            </div>
+            <div class="timer" id="order_form">
+              <p>Пропозиція діє:</p>
+              <div class="timer_container">
+                <div class="timer_block">
+                  <div class="count hours"><span>0</span><span>2</span></div>
+                  <div class="text">годин</div>
+                </div>
+                <div class="timer_block">
+                  <div class="count minutes"><span>3</span><span>3</span></div>
+                  <div class="text">хвилин</div>
+                </div>
+                <div class="timer_block">
+                  <div class="count seconds"><span>3</span><span>6</span></div>
+                  <div class="text">секунд</div>
+                </div>
+              </div>
+            </div>
+            <form
+              class="order_form"
+              action="form-ok.php"
+              method="POST"
+              name="order-form"
+            >
+              <input type="hidden" name="product_id" value="38" />
+              <input type="hidden" name="quantity" value="1" />
+              <input
+                type="hidden"
+                name="comment"
+                value="Потрібна консультація"
+              />
+              <input
+                class="field"
+                type="text"
+                name="name"
+                placeholder="Ваше ім'я"
+                required=""
+              />
+              <input
+                class="field"
+                type="tel"
+                name="phone"
+                minlength="10"
+                maxlength="15"
+                placeholder="Ваш телефон"
+                required=""
+              />
+              <div
+                style="
+                  margin: 0 auto 15px;
+                  font-size: 15px;
+                  width: 380px;
+                  color: #000;
+                "
+              >
+                <input
+                  id="data1"
+                  class="custom-checkbox"
+                  type="checkbox"
+                  checked=""
+                  required=""
+                />
+                <label for="data1"
+                  >Я погоджуюся з політикою конфіденційності</label
+                >
+              </div>
+              <img class="img-loading" src="images/loading.gif" alt="" />
+              <button class="button">Купити</button>
+            </form>
+          </section>
+        </main>
+        <!-- footer -->
+
+        <footer class="footer_section">
+          <div style="font-size: 13px; text-align: center">
+            ТОВ БЕСТ БАЙ <br />Одеса, вул. Кирилівська 128<br />
+            © 2017-2024<br />
+            Графік работи: Пн - Нд: 08:00 - 22:00 <br />
+            <a style="color: inherit" href="/politics.html"
+              >Політика конфеденційності</a
+            >
+            <br />
+            <a style="color: inherit" href="/agreement.html"
+              >Угода користувача</a
+            >
+            <br />
+            <a style="color: inherit" href="/garantiya.html"
+              >Умови гарантії та повернення</a
+            >
+          </div>
+        </footer>
+        <div class="yvedw">
+          <div class="yved yvedf1" style="display: none">
+            Разом з Вами на сайті 7 відвідувачів
+          </div>
+          <div class="yved yvedf2" style="display: none">
+            Батаєва Олена, м.Одеса, залишила заявку на зворотній дзвінок
+          </div>
+          <div class="yved yvedf1" style="display: none">
+            Вікторія Єфимова, м.Київ, оформила замовлення
+          </div>
+          <div class="yved yvedf2" style="display: none">
+            Наталія Лисець, м.Львів, залишила заявку на зворотній дзвінок
+          </div>
+          <div class="yved yvedf1" style="display: none">
+            Разом з Вами на сайті 11 відвідувачів
+          </div>
+          <div class="yved yvedf1" style="display: none">
+            Разом з Вами на сайті 13 відвідувачів
+          </div>
+          <div class="yved yvedf1" style="display: none">
+            Максимова Віра, м.Івано-Франківськ, оформила замовлення
+          </div>
+          <div class="yved yvedf1" style="display: none">
+            Разом з Вами на сайті 9 відвідувачів
+          </div>
+        </div>
+        <style>
+          .yved {
+            position: fixed;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 430px;
+            text-align: center;
+            color: #333;
+            padding: 10px;
+            font-size: 15px;
+            border-radius: 10px;
+            display: none;
+            z-index: 9999;
+            border: 2px solid #0c514b;
+          }
+          .yvedf1 {
+            background-color: #fff;
+          }
+          .yvedf2 {
+            background-color: #fff;
+          }
+        </style>
+        <!-- Модальне вікно кошика -->
+        <div id="cart" class="modal">
+          <div class="modal-content">
+            <h3 class="title">Ваш кошик</h3>
+            <div id="cart-items"></div>
+            <input
+              class="field"
+              type="text"
+              name="name"
+              placeholder="Ваше ім'я"
+              required=""
+            />
+            <input
+              class="field"
+              type="tel"
+              name="phone"
+              minlength="10"
+              maxlength="15"
+              placeholder="Ваш телефон"
+              required=""
+            />
+            <div class="cart-total">
+              Загальна сума: <span id="cart-total">0</span> грн
+            </div>
+            <img class="img-loading" src="images/loading.gif" alt="" />
+            <button class="button" id="checkout">Оформити замовлення</button>
+          </div>
+          <div class="close-modal">×</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.6.3.min.js" crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/maskedinput.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      $(document).ready(function () {
+        var i = 0;
+
+        function yved() {
+          i = 1;
+          $(".yved:nth-child(" + i + ")")
+            .fadeIn(500)
+            .delay(7000)
+            .fadeOut(500);
+        }
+        setTimeout(function () {
+          setInterval(function () {
+            i = i + 1;
+            if (i > 10) i = 1;
+            $(".yved:nth-child(" + i + ")")
+              .fadeIn(500)
+              .delay(7000)
+              .fadeOut(500);
+          }, 30000);
+          yved();
+        }, 10000);
+      });
+    </script>
+    <script>
+      ScrollReveal().reveal(".scroll-reval-block", {
+        delay: 200,
+        origin: "bottom",
+        distance: "20px",
+        opacity: 0,
+      });
+    </script>
+    <script>
+      $(".order_form").submit(function () {
+        $(this).children(".button").hide();
+        $(this).parent().find(".img-loading").css("display", "block");
+      });
+    </script>
+    <!-- /scripts -->
+  </body>
+</html>
